@@ -1,0 +1,93 @@
+body{
+    border-radius: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+container{
+    color: indigo;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+p{
+    text-decoration: lightpink;
+}
+main{
+    background-color: indigo;
+    border:indigo;
+    border-radius: 10px;
+    margin-right: 26em;
+    margin-left: 26em;
+    padding-bottom: 1px;
+}
+h3{
+    background-color:lavenderblush;
+    border-radius: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: indigo;
+    text-align: center;
+    margin-left: 22em;
+    margin-right: 22em;
+}
+h4{
+    color: navy;
+    border-radius: 10em;
+    text-decoration-color: white;
+    text-align: center;
+    justify-content: center;
+}
+h5{
+    color:red;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    color: navy;
+    text-align: center;
+    justify-content: center;
+}
+
+/*mobile design*/
+@media screen and (max-width:765px){
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+p{
+    text-align: center;
+}    
+h3{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+/*desktop design*/
+@media screen and (min-width:769px){
+main{
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+p{
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+h3{
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+h5{
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
